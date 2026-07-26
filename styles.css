@@ -436,7 +436,14 @@ img{
   }
   .hero-img{
     max-width: 100%;
-    height: auto;
+    height: 100%;
+  }
+
+  .menu{
+    border-radius: 0;
+  }
+  
+   
   }
 
   .destacados, .talleres{
@@ -452,7 +459,7 @@ img{
     width: 100%;
   }
 
-}
+
 
 @container conocenos (width > 600px){
   
