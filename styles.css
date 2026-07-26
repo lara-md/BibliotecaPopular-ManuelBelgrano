@@ -436,13 +436,20 @@ img{
   }
   .hero-img{
     max-width: 100%;
+    height: auto;
   }
 
   .menu{
     border-radius: 0;
   }
-  
-   
+  .menu:hover{
+    .navegacion{
+      p, ul{
+      display: inline;
+      width: auto;
+      height:auto;
+    }
+    }
   }
 
   .destacados, .talleres{
@@ -458,7 +465,7 @@ img{
     width: 100%;
   }
 
-
+}
 
 @container conocenos (width > 600px){
   
@@ -487,7 +494,7 @@ img{
 }
 
 
-@container agenda (width > 768px){
+@container agenda (width > 800px){
 
 .evento, .evento-grande{
   box-sizing: border-box;
@@ -528,7 +535,7 @@ img{
     flex-direction: column;
 }
 }
-@container card (width < 768px){
+@container card (width < 800px){
   
   .card-1{
     position:relative;
